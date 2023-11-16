@@ -1,0 +1,159 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 75f4c67c-bbde-4446-8f82-67797a1b269f)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 16.51 16.51) (size 52.07 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 194 0 1.0000))
+    (uuid 19bf685c-3358-44f7-be43-7c9e33bdce09)
+    (property "Sheetname" "Driver" (at 16.51 15.7984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Driver.kicad_sch" (at 16.51 50.1146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Плата управления"
+        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 16.51 55.88) (size 52.07 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 194 0 0 1.0000))
+    (uuid 5edc1bc4-8927-4ae0-9f52-ef5d9c5bfa46)
+    (property "Sheetname" "MCU" (at 16.51 55.1684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU.kicad_sch" (at 16.51 89.4846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Поле2" "" (at 16.51 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Плата управления"
+        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 128.27 55.88) (size 52.07 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 748e6803-cc54-46be-a33b-d2599b6267a4)
+    (property "Sheetname" "Power_Supply" (at 128.27 55.1684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power_Supply.kicad_sch" (at 128.27 89.4846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Поле2" "" (at 128.27 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Плата управления"
+        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 184.15 55.88) (size 52.07 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 194 0 1.0000))
+    (uuid 9fed4cc9-7de2-4454-9cda-928fae308673)
+    (property "Sheetname" "CAN" (at 184.15 55.1684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "CAN.kicad_sch" (at 184.15 89.4846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Поле2" "" (at 184.15 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Плата управления"
+        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f" (page "9"))
+      )
+    )
+  )
+
+  (sheet (at 72.39 55.88) (size 52.07 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid bafcb8f9-c70d-45e1-9910-764a6d48e9ca)
+    (property "Sheetname" "Rotary_Position_Sensor" (at 72.39 55.1684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Rotary_Position_Sensor.kicad_sch" (at 72.39 89.4846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Плата управления"
+        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 72.39 16.51) (size 52.07 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 194 0 1.0000))
+    (uuid c91ff3ec-ad20-4326-acd4-2c9dea437172)
+    (property "Sheetname" "Overcurrent_Measure_and_Pritection" (at 72.39 15.7984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Overcurrent_Measure_and_Protection.kicad_sch" (at 72.39 50.1146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Плата управления"
+        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 128.27 16.51) (size 52.07 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 194 0 1.0000))
+    (uuid d6b8b9ce-300b-4d22-9d4c-9182eba581b1)
+    (property "Sheetname" "Temperture_measure" (at 128.27 15.7984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Temperture_measure.kicad_sch" (at 128.27 50.1146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Плата управления"
+        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 184.15 16.51) (size 52.07 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f5e732cc-be4b-4207-bf28-0691ff32221d)
+    (property "Sheetname" "Connectors" (at 184.15 15.7984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Connectors.kicad_sch" (at 184.15 50.1146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Плата управления"
+        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f" (page "5"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
