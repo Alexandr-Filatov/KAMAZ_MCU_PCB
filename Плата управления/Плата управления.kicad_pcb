@@ -5009,9 +5009,12 @@
   (gr_arc (start 116.205 94.615) (mid 113.015789 108.665562) (end 104.14 120.015)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 8d9892ae-e8d8-4e64-bff6-dc036989b9e7))
 
+  (segment (start 131.572 94.565) (end 127.939 94.565) (width 0.5) (layer "F.Cu") (net 1) (tstamp 216c8d73-4464-4f7a-964b-14fee20b34b0))
   (segment (start 143.7675 93.3) (end 144.862 93.3) (width 0.25) (layer "F.Cu") (net 1) (tstamp 433944a6-e578-4e01-b038-02b55f9ca4db))
   (segment (start 144.862 93.3) (end 145.288 93.726) (width 0.25) (layer "F.Cu") (net 1) (tstamp 62d26aa9-9d5a-4338-bf37-8a6010b2ea16))
+  (segment (start 127.939 94.565) (end 127.762 94.742) (width 0.5) (layer "F.Cu") (net 1) (tstamp d6c0252f-a3cc-4b30-8a26-54398fca9633))
   (via (at 145.288 93.726) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 1) (tstamp 0ab8ccff-bf24-436d-bd58-bd0442df00ef))
+  (segment (start 131.572 91.44) (end 127.508 91.44) (width 0.5) (layer "F.Cu") (net 168) (tstamp 6192fc6a-b5af-46dd-876c-d789ab0b0dbf))
   (segment (start 136.398 83.566) (end 135.89 84.074) (width 0.5) (layer "F.Cu") (net 169) (tstamp 086d806e-f89a-4b1d-8c57-0eabec6894c5))
   (segment (start 137.8675 89.41) (end 136.8925 89.41) (width 0.25) (layer "F.Cu") (net 169) (tstamp 52a83e22-b6ab-474b-85ed-1a11a0525481))
   (segment (start 138.216 83.566) (end 136.398 83.566) (width 0.5) (layer "F.Cu") (net 169) (tstamp 6cb8189c-e88a-4d69-9ea3-e52b615f97c0))
