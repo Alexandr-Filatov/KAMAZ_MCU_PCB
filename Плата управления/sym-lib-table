@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Connverter_DCDC_My")(type "KiCad")(uri "${KIPRJMOD}/Connverter_DCDC_My.kicad_sym")(options "")(descr ""))
   (lib (name "Hall_Sensor_My")(type "KiCad")(uri "${KIPRJMOD}/Hall_Sensor_My.kicad_sym")(options "")(descr ""))
+  (lib (name "CAN_My")(type "KiCad")(uri "${KIPRJMOD}/CAN_My.kicad_sym")(options "")(descr ""))
 )

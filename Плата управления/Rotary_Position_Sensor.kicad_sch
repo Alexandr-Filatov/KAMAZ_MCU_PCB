@@ -414,7 +414,7 @@
     (property "Value" "NSM3012" (at 147.32 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 147.32 86.36 0)
+    (property "Footprint" "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" (at 147.32 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 147.32 86.36 0)
