@@ -653,7 +653,7 @@
     (property "Value" "INA283" (at 154.94 142.24 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 148.59 138.43 0)
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 148.59 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina282.pdf" (at 148.59 138.43 0)
