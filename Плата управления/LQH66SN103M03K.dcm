@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LQH66SN103M03K
+D LQH66SN_03 Series Inductor 10000uH +/-20% 2525 (6363)
+K
+F https://psearch.en.murata.com/inductor/product/LQH66SN103M03%23.html
+$ENDCMP
+#
+#End Doc Library

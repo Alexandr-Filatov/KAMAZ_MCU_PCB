@@ -87,7 +87,7 @@
 
   (sheet (at 72.39 55.88) (size 52.07 33.02) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 0 194 0 1.0000))
     (uuid bafcb8f9-c70d-45e1-9910-764a6d48e9ca)
     (property "Sheetname" "Rotary_Position_Sensor" (at 72.39 55.1684 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
