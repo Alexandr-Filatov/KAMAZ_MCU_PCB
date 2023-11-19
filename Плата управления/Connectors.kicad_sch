@@ -414,7 +414,7 @@
   (symbol (lib_id "power:GND") (at 143.51 67.31 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 018bb8d0-f931-4dd8-8665-2a176887889e)
-    (property "Reference" "#PWR053" (at 137.16 67.31 0)
+    (property "Reference" "#PWR047" (at 137.16 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 139.7 67.31 90)
@@ -430,7 +430,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/bafcb8f9-c70d-45e1-9910-764a6d48e9ca"
           (reference "#PWR067") (unit 1)
@@ -447,7 +447,7 @@
   (symbol (lib_id "power:+24V") (at 143.51 64.77 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2167c3e9-26d5-4b45-b05c-04db856f3bfd)
-    (property "Reference" "#PWR052" (at 147.32 64.77 0)
+    (property "Reference" "#PWR046" (at 147.32 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 139.7 64.77 90)
@@ -463,7 +463,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/bafcb8f9-c70d-45e1-9910-764a6d48e9ca"
           (reference "#PWR066") (unit 1)
@@ -548,7 +548,7 @@
   (symbol (lib_id "power:GND") (at 101.6 57.15 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3455d56b-b93e-48c9-809d-91816ec9833e)
-    (property "Reference" "#PWR047" (at 95.25 57.15 0)
+    (property "Reference" "#PWR041" (at 95.25 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.79 57.15 90)
@@ -564,7 +564,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/bafcb8f9-c70d-45e1-9910-764a6d48e9ca"
           (reference "#PWR061") (unit 1)
@@ -617,7 +617,7 @@
   (symbol (lib_id "power:GND") (at 101.6 92.71 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f3d83e4-e3b0-4712-92f0-e045c7b9e651)
-    (property "Reference" "#PWR051" (at 95.25 92.71 0)
+    (property "Reference" "#PWR045" (at 95.25 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.79 92.71 90)
@@ -633,7 +633,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/bafcb8f9-c70d-45e1-9910-764a6d48e9ca"
           (reference "#PWR065") (unit 1)
@@ -687,7 +687,7 @@
   (symbol (lib_id "power:GND") (at 101.6 85.09 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 74fc0858-5638-4e98-ba13-c74230d46649)
-    (property "Reference" "#PWR050" (at 95.25 85.09 0)
+    (property "Reference" "#PWR044" (at 95.25 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.79 85.09 90)
@@ -703,7 +703,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/bafcb8f9-c70d-45e1-9910-764a6d48e9ca"
           (reference "#PWR064") (unit 1)
@@ -756,7 +756,7 @@
   (symbol (lib_id "power:GND") (at 101.6 52.07 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 85f44b2b-d54f-44bc-ad3b-2969eae2f638)
-    (property "Reference" "#PWR046" (at 95.25 52.07 0)
+    (property "Reference" "#PWR040" (at 95.25 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.79 52.07 90)
@@ -772,7 +772,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/bafcb8f9-c70d-45e1-9910-764a6d48e9ca"
           (reference "#PWR060") (unit 1)
@@ -789,7 +789,7 @@
   (symbol (lib_id "power:GND") (at 101.6 77.47 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a69bb0ac-74ab-4885-9d0c-7b5e84cfda11)
-    (property "Reference" "#PWR048" (at 95.25 77.47 0)
+    (property "Reference" "#PWR042" (at 95.25 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.79 77.47 90)
@@ -805,7 +805,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/bafcb8f9-c70d-45e1-9910-764a6d48e9ca"
           (reference "#PWR062") (unit 1)
@@ -822,7 +822,7 @@
   (symbol (lib_id "power:GND") (at 101.6 80.01 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e24a1166-7c53-44c3-ba0a-6173e65deac9)
-    (property "Reference" "#PWR049" (at 95.25 80.01 0)
+    (property "Reference" "#PWR043" (at 95.25 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.79 80.01 90)
@@ -838,7 +838,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/bafcb8f9-c70d-45e1-9910-764a6d48e9ca"
           (reference "#PWR063") (unit 1)
