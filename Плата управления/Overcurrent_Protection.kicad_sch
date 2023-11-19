@@ -443,6 +443,11 @@
     (uuid d99e6665-4a1d-4ecb-bbc8-b1488b83ef11)
   )
 
+  (text "Защита от КЗ" (at 19.05 20.32 0)
+    (effects (font (size 2 2) bold) (justify left bottom))
+    (uuid ed05b2bb-442b-4c52-bc02-da4f8084f9d6)
+  )
+
   (global_label "Shunt_1" (shape input) (at 30.48 64.77 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 12593b77-763e-49f0-8f03-00c9615f08d1)
