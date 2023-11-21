@@ -3368,7 +3368,7 @@
     (property "Value" "8M" (at 35.56 50.165 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Crystal:Crystal_SMD_MicroCrystal_CC1V-T1A-2Pin_8.0x3.7mm" (at 33.02 48.26 0)
+    (property "Footprint" "Crystal:Crystal_SMD_HC49-SD" (at 33.02 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 33.02 48.26 0)

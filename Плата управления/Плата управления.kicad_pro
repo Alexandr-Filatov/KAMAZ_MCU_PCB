@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 6.5,
-          "width": 3.4
+          "drill": 3.0,
+          "height": 6.0,
+          "width": 6.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -444,7 +444,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "../3D models/Плата управления.step",
+      "step": "../../../3D модели/Плата управления.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -509,8 +509,8 @@
       "MCU"
     ],
     [
-      "bafcb8f9-c70d-45e1-9910-764a6d48e9ca",
-      "Rotary_Position_Sensor"
+      "c4a77b60-6f80-4c82-a865-c1484ac69908",
+      "RS485"
     ],
     [
       "748e6803-cc54-46be-a33b-d2599b6267a4",
@@ -519,6 +519,14 @@
     [
       "9fed4cc9-7de2-4454-9cda-928fae308673",
       "CAN"
+    ],
+    [
+      "bbae964f-aef3-47b6-89c5-594b5cc7787c",
+      "EEPROM"
+    ],
+    [
+      "47f4c3e6-ca16-48bd-a07f-b1f138b5b42e",
+      "RS486"
     ]
   ],
   "text_variables": {}

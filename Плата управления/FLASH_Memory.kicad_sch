@@ -488,9 +488,6 @@
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/bbae964f-aef3-47b6-89c5-594b5cc7787c"
           (reference "#PWR0110") (unit 1)
         )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
-          (reference "#PWR078") (unit 1)
-        )
       )
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09"
@@ -537,9 +534,6 @@
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/bbae964f-aef3-47b6-89c5-594b5cc7787c"
           (reference "C57") (unit 1)
         )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
-          (reference "C37") (unit 1)
-        )
       )
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09"
@@ -579,9 +573,6 @@
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/bbae964f-aef3-47b6-89c5-594b5cc7787c"
           (reference "#PWR0111") (unit 1)
         )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
-          (reference "#PWR0111") (unit 1)
-        )
       )
     )
   )
@@ -615,9 +606,6 @@
           (reference "R33") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/bbae964f-aef3-47b6-89c5-594b5cc7787c"
-          (reference "R15") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
           (reference "R15") (unit 1)
         )
       )
@@ -657,9 +645,6 @@
           (reference "#PWR0104") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/bbae964f-aef3-47b6-89c5-594b5cc7787c"
-          (reference "#PWR0113") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
           (reference "#PWR0113") (unit 1)
         )
       )
@@ -708,9 +693,6 @@
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/bbae964f-aef3-47b6-89c5-594b5cc7787c"
           (reference "C60") (unit 1)
         )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
-          (reference "C40") (unit 1)
-        )
       )
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09"
@@ -750,9 +732,6 @@
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/bbae964f-aef3-47b6-89c5-594b5cc7787c"
           (reference "#PWR0109") (unit 1)
         )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
-          (reference "#PWR077") (unit 1)
-        )
       )
     )
   )
@@ -787,9 +766,6 @@
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/bbae964f-aef3-47b6-89c5-594b5cc7787c"
           (reference "C58") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
-          (reference "C38") (unit 1)
         )
       )
       (project "Силовая плата"
@@ -837,9 +813,6 @@
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/bbae964f-aef3-47b6-89c5-594b5cc7787c"
           (reference "R20") (unit 1)
         )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
-          (reference "R20") (unit 1)
-        )
       )
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/1efb5faf-bb82-4ac6-a144-d6576b4720aa"
@@ -877,9 +850,6 @@
           (reference "#PWR0103") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/bbae964f-aef3-47b6-89c5-594b5cc7787c"
-          (reference "#PWR0112") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
           (reference "#PWR0112") (unit 1)
         )
       )
@@ -928,9 +898,6 @@
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/bbae964f-aef3-47b6-89c5-594b5cc7787c"
           (reference "R36") (unit 1)
         )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
-          (reference "R27") (unit 1)
-        )
       )
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/1efb5faf-bb82-4ac6-a144-d6576b4720aa"
@@ -969,9 +936,6 @@
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/bbae964f-aef3-47b6-89c5-594b5cc7787c"
           (reference "#PWR0108") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
-          (reference "#PWR076") (unit 1)
         )
       )
       (project "Силовая плата"
@@ -1019,9 +983,6 @@
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/bbae964f-aef3-47b6-89c5-594b5cc7787c"
           (reference "C11") (unit 1)
         )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
-          (reference "C36") (unit 1)
-        )
       )
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09"
@@ -1067,9 +1028,6 @@
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/bbae964f-aef3-47b6-89c5-594b5cc7787c"
           (reference "C59") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
-          (reference "C39") (unit 1)
         )
       )
       (project "Силовая плата"
@@ -1117,9 +1075,6 @@
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/bbae964f-aef3-47b6-89c5-594b5cc7787c"
           (reference "D11") (unit 1)
         )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
-          (reference "D7") (unit 1)
-        )
       )
     )
   )
@@ -1153,9 +1108,6 @@
           (reference "R32") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/bbae964f-aef3-47b6-89c5-594b5cc7787c"
-          (reference "R14") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
           (reference "R14") (unit 1)
         )
       )
