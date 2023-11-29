@@ -444,7 +444,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "../../../3D модели/Плата управления.step",
+      "step": "../3D models/Плата управления.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
