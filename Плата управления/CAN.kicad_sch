@@ -313,11 +313,7 @@
     (stroke (width 0) (type default))
     (uuid 288bc136-c2bd-47ba-8d7a-529799ae86f6)
   )
-  (wire (pts (xy 34.29 36.83) (xy 36.83 36.83))
-    (stroke (width 0) (type default))
-    (uuid 2dcb9cb9-b3c0-49db-b709-566db0ad30d9)
-  )
-  (wire (pts (xy 34.29 62.23) (xy 36.83 62.23))
+  (wire (pts (xy 34.29 62.23) (xy 58.42 62.23))
     (stroke (width 0) (type default))
     (uuid 2ff01aa3-3adf-418e-98d9-f388436da6d5)
   )
@@ -417,7 +413,7 @@
     (stroke (width 0) (type default))
     (uuid 8b96d892-3ab0-4a29-8774-e340ee6c1aad)
   )
-  (wire (pts (xy 41.91 36.83) (xy 46.99 36.83))
+  (wire (pts (xy 34.29 36.83) (xy 46.99 36.83))
     (stroke (width 0) (type default))
     (uuid 8c3add76-f41f-44d1-8537-a5d8e2b8b424)
   )
@@ -456,14 +452,6 @@
   (wire (pts (xy 148.59 50.8) (xy 152.4 50.8))
     (stroke (width 0) (type default))
     (uuid a82a34ad-98db-40da-92b0-c4bcdbdb9ffe)
-  )
-  (wire (pts (xy 125.73 36.83) (xy 128.27 36.83))
-    (stroke (width 0) (type default))
-    (uuid adfa6e72-4e27-4c43-b746-3f9a2436313b)
-  )
-  (wire (pts (xy 41.91 62.23) (xy 58.42 62.23))
-    (stroke (width 0) (type default))
-    (uuid b440603c-d405-4161-acec-bb7f3580077a)
   )
   (wire (pts (xy 57.15 50.8) (xy 60.96 50.8))
     (stroke (width 0) (type default))
@@ -513,7 +501,7 @@
     (stroke (width 0) (type default))
     (uuid dff47d93-57f3-429b-8f55-de2b7404f900)
   )
-  (wire (pts (xy 133.35 36.83) (xy 138.43 36.83))
+  (wire (pts (xy 125.73 36.83) (xy 138.43 36.83))
     (stroke (width 0) (type default))
     (uuid e63035e4-a89a-480f-a379-5b317ec21fae)
   )
@@ -524,10 +512,6 @@
   (wire (pts (xy 148.59 46.99) (xy 148.59 48.26))
     (stroke (width 0) (type default))
     (uuid e91374b7-8855-4579-af53-6bf4f1529faf)
-  )
-  (wire (pts (xy 125.73 62.23) (xy 128.27 62.23))
-    (stroke (width 0) (type default))
-    (uuid ea0077c3-c1c8-4d45-bdb9-c9c1a1e930e2)
   )
   (wire (pts (xy 46.99 36.83) (xy 46.99 39.37))
     (stroke (width 0) (type default))
@@ -541,7 +525,7 @@
     (stroke (width 0) (type default))
     (uuid f50668d6-ce59-45ba-9416-a3a21c160a28)
   )
-  (wire (pts (xy 133.35 62.23) (xy 149.86 62.23))
+  (wire (pts (xy 125.73 62.23) (xy 149.86 62.23))
     (stroke (width 0) (type default))
     (uuid f62d943d-90ad-4952-bdc6-8192fb171a18)
   )
@@ -776,49 +760,6 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Small") (at 39.37 62.23 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0de9fa6a-d3a9-4b5e-bb4c-f1bd873871de)
-    (property "Reference" "R30" (at 39.37 57.15 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10k" (at 39.37 59.69 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 39.37 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 39.37 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6f3b8485-2547-4018-8792-cae3fb5b22c6))
-    (pin "2" (uuid 9cfcaed0-9fef-43a5-babe-1ccb7a0bb21d))
-    (instances
-      (project "Плата управления"
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/d6b8b9ce-300b-4d22-9d4c-9182eba581b1"
-          (reference "R30") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "R20") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/9fed4cc9-7de2-4454-9cda-928fae308673"
-          (reference "R33") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/bbae964f-aef3-47b6-89c5-594b5cc7787c"
-          (reference "R15") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
-          (reference "R15") (unit 1)
-        )
-      )
-      (project "Силовая плата"
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/1efb5faf-bb82-4ac6-a144-d6576b4720aa"
-          (reference "R2") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C_Small") (at 146.05 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f2026eb-e21f-43ef-8964-bce8e337dd45)
@@ -1013,49 +954,6 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Small") (at 130.81 36.83 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3f77b144-dcd7-4524-a0a4-3c9dba16e1ba)
-    (property "Reference" "R30" (at 130.81 31.75 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10k" (at 130.81 34.29 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 130.81 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 130.81 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6267e3c4-297c-4f46-ab43-24a394c9352a))
-    (pin "2" (uuid 673df199-5784-48e3-87cc-81560e2370b6))
-    (instances
-      (project "Плата управления"
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/d6b8b9ce-300b-4d22-9d4c-9182eba581b1"
-          (reference "R30") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "R20") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/9fed4cc9-7de2-4454-9cda-928fae308673"
-          (reference "R27") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/bbae964f-aef3-47b6-89c5-594b5cc7787c"
-          (reference "R14") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
-          (reference "R14") (unit 1)
-        )
-      )
-      (project "Силовая плата"
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/1efb5faf-bb82-4ac6-a144-d6576b4720aa"
-          (reference "R2") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C_Small") (at 83.82 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 45fdbb38-4f2e-4ae4-af68-024f7d6f88cc)
@@ -1217,49 +1115,6 @@
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
           (reference "D7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 130.81 62.23 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5cc4ed77-b887-4ae9-b278-46949c89424a)
-    (property "Reference" "R30" (at 130.81 57.15 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10k" (at 130.81 59.69 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 130.81 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 130.81 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 01bdb6a9-a7d7-41a7-bc62-ecd75d545856))
-    (pin "2" (uuid 9d23403d-f03f-4671-bfcf-d36c13b9fc9f))
-    (instances
-      (project "Плата управления"
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/d6b8b9ce-300b-4d22-9d4c-9182eba581b1"
-          (reference "R30") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "R20") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/9fed4cc9-7de2-4454-9cda-928fae308673"
-          (reference "R28") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/bbae964f-aef3-47b6-89c5-594b5cc7787c"
-          (reference "R15") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
-          (reference "R15") (unit 1)
-        )
-      )
-      (project "Силовая плата"
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/1efb5faf-bb82-4ac6-a144-d6576b4720aa"
-          (reference "R2") (unit 1)
         )
       )
     )
@@ -1853,49 +1708,6 @@
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
           (reference "D7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 39.37 36.83 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d56029ee-8d21-4a08-a05c-03159b832f36)
-    (property "Reference" "R30" (at 39.37 31.75 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10k" (at 39.37 34.29 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 39.37 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 39.37 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d71ba7d4-d5f9-48de-8561-bff1d38b4a64))
-    (pin "2" (uuid d7a95309-e542-49f7-bad1-8d880d506ae8))
-    (instances
-      (project "Плата управления"
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/d6b8b9ce-300b-4d22-9d4c-9182eba581b1"
-          (reference "R30") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "R20") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/9fed4cc9-7de2-4454-9cda-928fae308673"
-          (reference "R32") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/bbae964f-aef3-47b6-89c5-594b5cc7787c"
-          (reference "R14") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
-          (reference "R14") (unit 1)
-        )
-      )
-      (project "Силовая плата"
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/1efb5faf-bb82-4ac6-a144-d6576b4720aa"
-          (reference "R2") (unit 1)
         )
       )
     )
