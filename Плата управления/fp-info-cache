@@ -1,4 +1,4 @@
-127388278477070
+130023090960368
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -528,6 +528,13 @@ Diode_SMD
 Nexperia_DSN0603-2_0.6x0.3mm_P0.4mm
 SOD962-2 silicon, leadless ultra small package; 2 terminals; 0.4 mm pitch; 0.6 mm x 0.3 mm x 0.3 mm body (https://assets.nexperia.com/documents/package-information/SOD962-2.pdf https://www.nexperia.com/packages/SOD962-2.html)
 TVS protection diodes
+0
+2
+2
+Diode_SMD
+Vishay_SMPA
+Diode SMPA (DO-221BC), https://www.vishay.com/docs/87659/v8pa10.pdf
+Diode SMPA (DO-221BC)
 0
 2
 2
