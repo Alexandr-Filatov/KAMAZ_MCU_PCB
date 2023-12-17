@@ -1120,7 +1120,7 @@
   (symbol (lib_id "power:+3.3V") (at 141.605 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00aa59ee-ede1-4dc0-b9a1-de568dfcabb7)
-    (property "Reference" "#PWR030" (at 145.415 115.57 0)
+    (property "Reference" "#PWR031" (at 145.415 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 137.795 116.205 90)
@@ -1136,7 +1136,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
       (project "Силовая плата"
@@ -1150,7 +1150,7 @@
   (symbol (lib_id "power:+3.3V") (at 95.25 135.255 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0abd70b4-6e9d-42a8-ba11-5fdb068cf832)
-    (property "Reference" "#PWR081" (at 91.44 135.255 0)
+    (property "Reference" "#PWR038" (at 91.44 135.255 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 97.79 135.255 90)
@@ -1166,7 +1166,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
       (project "Силовая плата"
@@ -1180,7 +1180,7 @@
   (symbol (lib_id "power:GNDA") (at 95.25 125.095 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0d63607d-d596-4580-81c3-61163a86fbc5)
-    (property "Reference" "#PWR034" (at 101.6 125.095 0)
+    (property "Reference" "#PWR033" (at 101.6 125.095 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 97.79 125.095 90)
@@ -1196,7 +1196,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -1205,7 +1205,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x10_Odd_Even") (at 146.685 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 10601b9c-98fd-46f9-bc79-06369205047b)
-    (property "Reference" "J1" (at 147.955 113.03 0)
+    (property "Reference" "J8" (at 147.955 113.03 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x10_Odd_Even" (at 147.955 113.03 0)
@@ -1240,7 +1240,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "J1") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -1249,7 +1249,7 @@
   (symbol (lib_id "power:+24V") (at 141.605 135.89 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2167c3e9-26d5-4b45-b05c-04db856f3bfd)
-    (property "Reference" "#PWR046" (at 145.415 135.89 0)
+    (property "Reference" "#PWR039" (at 145.415 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 137.795 135.89 90)
@@ -1265,7 +1265,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
       (project "Силовая плата"
@@ -1282,7 +1282,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 210.82 81.915 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 27ae1fba-0c66-4a01-bf0d-99f36ba77c99)
-    (property "Reference" "J5" (at 213.36 80.645 0)
+    (property "Reference" "J2" (at 213.36 80.645 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "B" (at 213.36 83.185 90)
@@ -1298,7 +1298,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "J5") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
       (project "Силовая плата"
@@ -1315,7 +1315,7 @@
   (symbol (lib_id "power:GND") (at 141.605 133.35 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3455d56b-b93e-48c9-809d-91816ec9833e)
-    (property "Reference" "#PWR041" (at 135.255 133.35 0)
+    (property "Reference" "#PWR037" (at 135.255 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 137.795 133.35 90)
@@ -1331,7 +1331,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
       (project "Силовая плата"
@@ -1345,7 +1345,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 220.98 81.915 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54c827de-cf8a-4f12-a19c-54fb5e410ab8)
-    (property "Reference" "J6" (at 223.52 80.645 0)
+    (property "Reference" "J3" (at 223.52 80.645 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "C" (at 223.52 83.185 90)
@@ -1361,7 +1361,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "J6") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
       (project "Силовая плата"
@@ -1378,7 +1378,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 90.17 100.33 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b633d32-7443-4b42-ad39-771f9e6a8731)
-    (property "Reference" "J3" (at 90.17 95.25 0)
+    (property "Reference" "J6" (at 90.17 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "CAN1" (at 87.63 99.06 90)
@@ -1395,7 +1395,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "J3") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -1404,7 +1404,7 @@
   (symbol (lib_id "power:+3.3VA") (at 155.575 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d22c4f8-27dc-46a5-a297-0ab880d699b6)
-    (property "Reference" "#PWR035" (at 159.385 96.52 0)
+    (property "Reference" "#PWR029" (at 159.385 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 151.765 96.52 90)
@@ -1420,7 +1420,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -1429,7 +1429,7 @@
   (symbol (lib_id "power:GND") (at 154.305 135.89 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f3d83e4-e3b0-4712-92f0-e045c7b9e651)
-    (property "Reference" "#PWR045" (at 160.655 135.89 0)
+    (property "Reference" "#PWR040" (at 160.655 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 158.115 135.89 90)
@@ -1445,7 +1445,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
       (project "Силовая плата"
@@ -1459,7 +1459,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 200.66 81.915 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 80b3b4cf-c30b-4346-8f95-d3c1792365fe)
-    (property "Reference" "J4" (at 203.2 80.645 0)
+    (property "Reference" "J1" (at 203.2 80.645 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "A" (at 203.2 83.185 90)
@@ -1475,7 +1475,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "J4") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
       (project "Силовая плата"
@@ -1492,7 +1492,7 @@
   (symbol (lib_id "power:GND") (at 141.605 125.73 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 85f44b2b-d54f-44bc-ad3b-2969eae2f638)
-    (property "Reference" "#PWR040" (at 135.255 125.73 0)
+    (property "Reference" "#PWR034" (at 135.255 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 137.795 125.73 90)
@@ -1508,7 +1508,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
       (project "Силовая плата"
@@ -1522,7 +1522,7 @@
   (symbol (lib_id "power:+3.3VA") (at 95.25 130.175 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 87a713fa-3ee0-4fca-8349-6e462746f0be)
-    (property "Reference" "#PWR082" (at 91.44 130.175 0)
+    (property "Reference" "#PWR036" (at 91.44 130.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 97.79 130.175 90)
@@ -1538,7 +1538,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -1568,7 +1568,7 @@
       )
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "#PWR0115") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -1577,7 +1577,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 90.17 87.63 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c4c182c9-4b43-449f-be2f-9d113b11e642)
-    (property "Reference" "J2" (at 90.17 82.55 0)
+    (property "Reference" "J4" (at 90.17 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "CAN2" (at 87.63 86.36 90)
@@ -1594,7 +1594,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "J2") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -1653,7 +1653,7 @@
       )
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "#PWR0112") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -1662,7 +1662,7 @@
   (symbol (lib_id "power:GNDA") (at 168.275 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cf40b98d-05f8-4284-a768-988f1d77c7f8)
-    (property "Reference" "#PWR036" (at 174.625 96.52 0)
+    (property "Reference" "#PWR030" (at 174.625 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 172.085 96.52 90)
@@ -1678,7 +1678,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -1708,7 +1708,7 @@
       )
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "#PWR0128") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -1717,7 +1717,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x07_Odd_Even") (at 160.655 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dfa81d61-a3fc-4a26-99a8-f840658868c8)
-    (property "Reference" "J11" (at 161.925 78.74 0)
+    (property "Reference" "J5" (at 161.925 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x07_Odd_Even" (at 161.925 77.47 0)
@@ -1746,7 +1746,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "J11") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -1755,7 +1755,7 @@
   (symbol (lib_id "power:GND") (at 154.305 125.73 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e24a1166-7c53-44c3-ba0a-6173e65deac9)
-    (property "Reference" "#PWR043" (at 160.655 125.73 0)
+    (property "Reference" "#PWR035" (at 160.655 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 158.115 125.73 90)
@@ -1771,7 +1771,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
       (project "Силовая плата"
@@ -1806,7 +1806,7 @@
       )
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/f5e732cc-be4b-4207-bf28-0691ff32221d"
-          (reference "#PWR0113") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )

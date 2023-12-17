@@ -191,7 +191,7 @@
   (symbol (lib_id "Device:R_Small") (at 148.59 97.155 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 385c6994-55fe-4a71-9070-3a46a38d6850)
-    (property "Reference" "R23" (at 151.13 96.52 0)
+    (property "Reference" "R19" (at 151.13 96.52 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 151.13 99.06 0)
@@ -208,7 +208,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/d6b8b9ce-300b-4d22-9d4c-9182eba581b1"
-          (reference "R23") (unit 1)
+          (reference "R19") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "R17") (unit 1)
@@ -225,7 +225,7 @@
   (symbol (lib_id "power:+3.3V") (at 139.7 92.075 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 556ce2c3-0096-4bd1-9c42-0f9fcb5c25f6)
-    (property "Reference" "#PWR029" (at 139.7 95.885 0)
+    (property "Reference" "#PWR026" (at 139.7 95.885 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 139.7 88.265 0)
@@ -241,7 +241,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/d6b8b9ce-300b-4d22-9d4c-9182eba581b1"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -250,7 +250,7 @@
   (symbol (lib_id "Device:R_Small") (at 130.81 97.155 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f3d7d5f-290e-4706-a78b-1fed1cc1a36e)
-    (property "Reference" "R21" (at 133.35 96.52 0)
+    (property "Reference" "R17" (at 133.35 96.52 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 133.35 99.06 0)
@@ -267,7 +267,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/d6b8b9ce-300b-4d22-9d4c-9182eba581b1"
-          (reference "R21") (unit 1)
+          (reference "R17") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "R17") (unit 1)
@@ -284,7 +284,7 @@
   (symbol (lib_id "Device:R_Small") (at 139.7 97.155 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6a3c8d8-291a-41bd-9380-8b1911dfcd61)
-    (property "Reference" "R22" (at 142.24 96.52 0)
+    (property "Reference" "R18" (at 142.24 96.52 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 142.24 99.06 0)
@@ -301,7 +301,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/d6b8b9ce-300b-4d22-9d4c-9182eba581b1"
-          (reference "R22") (unit 1)
+          (reference "R18") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "R17") (unit 1)

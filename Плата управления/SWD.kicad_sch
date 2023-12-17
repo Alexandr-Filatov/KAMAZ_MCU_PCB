@@ -282,7 +282,7 @@
   (symbol (lib_id "power:+3.3V") (at 158.115 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 27326f26-159b-4224-9503-d7071d685f96)
-    (property "Reference" "#PWR070" (at 158.115 97.79 0)
+    (property "Reference" "#PWR0105" (at 158.115 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 158.115 88.9 0)
@@ -298,7 +298,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/47f4c3e6-ca16-48bd-a07f-b1f138b5b42e"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
       )
     )
@@ -307,7 +307,7 @@
   (symbol (lib_id "power:GND") (at 158.115 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 52f777b8-5dbf-42b2-b086-e96f38009124)
-    (property "Reference" "#PWR071" (at 158.115 118.11 0)
+    (property "Reference" "#PWR0106" (at 158.115 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 158.115 116.84 0)
@@ -323,7 +323,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/47f4c3e6-ca16-48bd-a07f-b1f138b5b42e"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR0106") (unit 1)
         )
       )
     )
@@ -332,7 +332,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 151.765 107.95 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8547811-635d-4580-a5cc-3c97e2919d48)
-    (property "Reference" "J8" (at 151.765 100.33 0)
+    (property "Reference" "J10" (at 151.765 100.33 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWD" (at 149.225 106.68 90)
@@ -351,7 +351,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/47f4c3e6-ca16-48bd-a07f-b1f138b5b42e"
-          (reference "J8") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -360,7 +360,7 @@
   (symbol (lib_id "Device:D_Small") (at 158.115 97.79 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f691cabb-fed1-4649-b036-c2127d0afa5d)
-    (property "Reference" "D6" (at 160.02 97.79 90)
+    (property "Reference" "D13" (at 160.02 97.79 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D_Small" (at 160.655 99.06 90)
@@ -383,7 +383,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/47f4c3e6-ca16-48bd-a07f-b1f138b5b42e"
-          (reference "D6") (unit 1)
+          (reference "D13") (unit 1)
         )
       )
     )

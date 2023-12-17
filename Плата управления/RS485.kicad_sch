@@ -686,7 +686,7 @@
   (symbol (lib_id "Interface_UART:ADM3491ExR") (at 149.86 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 09eae349-6d70-43d4-9b61-e3580fa0f843)
-    (property "Reference" "U6" (at 142.24 85.09 0)
+    (property "Reference" "U8" (at 142.24 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ADM3491ARZ" (at 150.495 85.09 0)
@@ -715,7 +715,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
-          (reference "U6") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
     )
@@ -753,7 +753,7 @@
           (reference "C58") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
-          (reference "C59") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
       (project "Силовая плата"
@@ -802,7 +802,7 @@
           (reference "R36") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
-          (reference "R38") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
       (project "Силовая плата"
@@ -837,7 +837,7 @@
           (reference "D9") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
-          (reference "D11") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -846,7 +846,7 @@
   (symbol (lib_id "power:+3.3V") (at 149.86 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bdd47738-f492-48d3-914f-655fc0a1a4f6)
-    (property "Reference" "#PWR0124" (at 149.86 83.82 0)
+    (property "Reference" "#PWR072" (at 149.86 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 149.86 76.2 0)
@@ -862,7 +862,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
-          (reference "#PWR0124") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
     )
@@ -871,7 +871,7 @@
   (symbol (lib_id "power:GND") (at 134.62 80.01 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2863bf3-8c71-4cdb-a2cc-e8d25060626f)
-    (property "Reference" "#PWR0125" (at 134.62 73.66 0)
+    (property "Reference" "#PWR071" (at 134.62 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 134.62 76.2 0)
@@ -887,7 +887,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
-          (reference "#PWR0125") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -896,7 +896,7 @@
   (symbol (lib_id "power:GND") (at 149.86 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3f7a3a5-a829-4644-ab25-e11f9b470d1e)
-    (property "Reference" "#PWR0123" (at 149.86 120.65 0)
+    (property "Reference" "#PWR074" (at 149.86 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.86 119.38 0)
@@ -912,7 +912,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
-          (reference "#PWR0123") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
     )
@@ -921,7 +921,7 @@
   (symbol (lib_id "power:GND") (at 181.61 93.98 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dcb9cf78-7694-4bba-b101-1e6a13098e58)
-    (property "Reference" "#PWR074" (at 175.26 93.98 0)
+    (property "Reference" "#PWR073" (at 175.26 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 177.8 93.98 90)
@@ -937,7 +937,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c4a77b60-6f80-4c82-a865-c1484ac69908"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
     )

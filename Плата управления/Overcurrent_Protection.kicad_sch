@@ -509,7 +509,7 @@
           (reference "#PWR047") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "#PWR0107") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
       (project "Силовая плата"
@@ -549,7 +549,7 @@
           (reference "C17") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "C9") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
       (project "Силовая плата"
@@ -589,7 +589,7 @@
           (reference "R29") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "R17") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
       (project "Силовая плата"
@@ -622,7 +622,7 @@
           (reference "#PWR047") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
       (project "Силовая плата"
@@ -662,7 +662,7 @@
           (reference "C18") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "C10") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
       (project "Силовая плата"
@@ -701,7 +701,7 @@
           (reference "#PWR048") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
       (project "Силовая плата"
@@ -741,7 +741,7 @@
           (reference "R29") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "R18") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
       (project "Силовая плата"
@@ -774,7 +774,7 @@
           (reference "#PWR053") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
       (project "Силовая плата"
@@ -814,7 +814,7 @@
           (reference "C16") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "C7") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
       (project "Силовая плата"
@@ -854,7 +854,7 @@
           (reference "C16") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "C8") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
       (project "Силовая плата"
@@ -925,7 +925,7 @@
           (reference "#PWR052") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
       (project "Силовая плата"
@@ -964,7 +964,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -992,7 +992,7 @@
           (reference "#PWR047") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
       (project "Силовая плата"
@@ -1031,7 +1031,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -1094,7 +1094,7 @@
           (reference "R30") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "R19") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
       (project "Силовая плата"
@@ -1166,7 +1166,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -1222,7 +1222,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -1250,7 +1250,7 @@
           (reference "#PWR047") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
       (project "Силовая плата"
@@ -1293,7 +1293,7 @@
           (reference "U5") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "U2") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
       (project "Силовая плата"

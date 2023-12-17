@@ -897,7 +897,7 @@
   (symbol (lib_id "Device:R_Small") (at 241.3 118.11 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 080a53fe-9d23-4898-814c-d40636b1a22d)
-    (property "Reference" "R7" (at 241.3 116.205 90)
+    (property "Reference" "R12" (at 241.3 116.205 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.7" (at 241.3 120.015 90)
@@ -914,7 +914,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "R7") (unit 1)
+          (reference "R12") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "R16") (unit 1)
@@ -937,7 +937,7 @@
   (symbol (lib_id "Device:R_Small") (at 243.84 93.98 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0e60cde5-0fcc-4339-a4ef-7c5eaf05434c)
-    (property "Reference" "R9" (at 238.76 92.71 0)
+    (property "Reference" "R6" (at 238.76 92.71 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 238.76 95.25 0)
@@ -954,7 +954,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "R9") (unit 1)
+          (reference "R6") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "R18") (unit 1)
@@ -971,7 +971,7 @@
   (symbol (lib_id "Device:C_Small") (at 135.89 92.71 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 280b9b5d-cb11-4460-87f8-157eb5b5473e)
-    (property "Reference" "C14" (at 134.62 91.44 90)
+    (property "Reference" "C2" (at 134.62 91.44 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10u" (at 134.62 93.98 90)
@@ -988,7 +988,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "C14") (unit 1)
+          (reference "C2") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "C7") (unit 1)
@@ -1011,7 +1011,7 @@
   (symbol (lib_id "power:GND") (at 220.98 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2cb5807f-f009-4598-9b43-41640b8ca46f)
-    (property "Reference" "#PWR09" (at 220.98 128.27 0)
+    (property "Reference" "#PWR012" (at 220.98 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 220.98 125.73 0)
@@ -1027,7 +1027,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "#PWR021") (unit 1)
@@ -1044,7 +1044,7 @@
   (symbol (lib_id "Driver_FET:IR2184") (at 140.97 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3068f5d1-1a41-44d6-bb11-9e2b2f0013e1)
-    (property "Reference" "U4" (at 142.9259 93.98 0)
+    (property "Reference" "U2" (at 142.9259 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IR2184" (at 142.9259 96.52 0)
@@ -1067,7 +1067,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "U4") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -1076,7 +1076,7 @@
   (symbol (lib_id "power:GND") (at 67.31 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 30bed4ee-a880-4f13-8173-279d6c61e47c)
-    (property "Reference" "#PWR05" (at 67.31 127 0)
+    (property "Reference" "#PWR010" (at 67.31 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.31 124.46 0)
@@ -1092,7 +1092,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "#PWR021") (unit 1)
@@ -1109,7 +1109,7 @@
   (symbol (lib_id "Device:R_Small") (at 90.17 82.55 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 319439b0-d680-4cb0-b579-643f9e117480)
-    (property "Reference" "R4" (at 85.09 81.28 0)
+    (property "Reference" "R1" (at 85.09 81.28 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 85.09 83.82 0)
@@ -1126,7 +1126,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "R4") (unit 1)
+          (reference "R1") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "R17") (unit 1)
@@ -1189,7 +1189,7 @@
   (symbol (lib_id "Device:R_Small") (at 161.29 118.11 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3bb62dbd-a55f-4535-86ec-8bcab9e2a4fc)
-    (property "Reference" "R27" (at 161.29 116.205 90)
+    (property "Reference" "R11" (at 161.29 116.205 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.7" (at 161.29 120.015 90)
@@ -1206,7 +1206,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "R27") (unit 1)
+          (reference "R11") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "R16") (unit 1)
@@ -1229,7 +1229,7 @@
   (symbol (lib_id "Device:R_Small") (at 87.63 102.87 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 43ab309f-13b0-47e4-8470-7d5ca4d3ec44)
-    (property "Reference" "R2" (at 87.63 100.965 90)
+    (property "Reference" "R7" (at 87.63 100.965 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.7" (at 87.63 104.775 90)
@@ -1246,7 +1246,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "R2") (unit 1)
+          (reference "R7") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "R15") (unit 1)
@@ -1269,7 +1269,7 @@
   (symbol (lib_id "power:+12V") (at 140.97 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4814873b-cac8-4ff3-94fe-064b0d989fc2)
-    (property "Reference" "#PWR067" (at 140.97 95.25 0)
+    (property "Reference" "#PWR04" (at 140.97 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 143.51 87.63 0)
@@ -1285,7 +1285,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "#PWR018") (unit 1)
@@ -1302,7 +1302,7 @@
   (symbol (lib_id "power:GND") (at 91.44 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ae51cab-c768-4b7e-bde2-d6819506fbef)
-    (property "Reference" "#PWR06" (at 97.79 97.79 0)
+    (property "Reference" "#PWR07" (at 97.79 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 95.25 97.79 90)
@@ -1318,7 +1318,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "#PWR022") (unit 1)
@@ -1335,7 +1335,7 @@
   (symbol (lib_id "power:GND") (at 140.97 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d3305d3-5090-418d-ab0c-776abcf3bb82)
-    (property "Reference" "#PWR066" (at 140.97 128.27 0)
+    (property "Reference" "#PWR011" (at 140.97 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 140.97 125.73 0)
@@ -1351,7 +1351,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "#PWR021") (unit 1)
@@ -1408,7 +1408,7 @@
   (symbol (lib_id "Device:R_Small") (at 241.3 102.87 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6426cacf-7b0a-4ba1-83d2-4ca4add5abf0)
-    (property "Reference" "R6" (at 241.3 100.965 90)
+    (property "Reference" "R9" (at 241.3 100.965 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.7" (at 241.3 104.775 90)
@@ -1425,7 +1425,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "R6") (unit 1)
+          (reference "R9") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "R15") (unit 1)
@@ -1448,7 +1448,7 @@
   (symbol (lib_id "Device:C_Small") (at 78.74 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 66789cf2-7e39-446d-81b5-607ed1c0d03c)
-    (property "Reference" "C2" (at 80.01 105.41 0)
+    (property "Reference" "C4" (at 80.01 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BS" (at 80.01 107.95 0)
@@ -1465,7 +1465,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "C2") (unit 1)
+          (reference "C4") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "C8") (unit 1)
@@ -1488,7 +1488,7 @@
   (symbol (lib_id "Device:R_Small") (at 90.17 93.98 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6aa3656c-b9b6-4038-8bf5-ca77c3643aed)
-    (property "Reference" "R5" (at 85.09 92.71 0)
+    (property "Reference" "R4" (at 85.09 92.71 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 85.09 95.25 0)
@@ -1505,7 +1505,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "R5") (unit 1)
+          (reference "R4") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "R18") (unit 1)
@@ -1522,7 +1522,7 @@
   (symbol (lib_id "Device:R_Small") (at 161.29 102.87 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6cebe9db-2af6-4502-a5a8-6ff96a9e245b)
-    (property "Reference" "R1" (at 161.29 100.965 90)
+    (property "Reference" "R8" (at 161.29 100.965 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.7" (at 161.29 104.775 90)
@@ -1539,7 +1539,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "R1") (unit 1)
+          (reference "R8") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "R15") (unit 1)
@@ -1562,7 +1562,7 @@
   (symbol (lib_id "Device:R_Small") (at 87.63 118.11 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7606d953-1d87-4c1d-bc12-997d8499dcd7)
-    (property "Reference" "R3" (at 87.63 116.205 90)
+    (property "Reference" "R10" (at 87.63 116.205 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.7" (at 87.63 120.015 90)
@@ -1579,7 +1579,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "R3") (unit 1)
+          (reference "R10") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "R16") (unit 1)
@@ -1602,7 +1602,7 @@
   (symbol (lib_id "power:GND") (at 245.11 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 87eabe77-fbc3-4dec-af2e-c096e7a2a81b)
-    (property "Reference" "#PWR012" (at 251.46 97.79 0)
+    (property "Reference" "#PWR09" (at 251.46 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 248.92 97.79 90)
@@ -1618,7 +1618,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "#PWR022") (unit 1)
@@ -1635,7 +1635,7 @@
   (symbol (lib_id "power:GND") (at 57.15 91.44 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8d7fcb7c-87fe-415d-b0b5-0084bba973f1)
-    (property "Reference" "#PWR02" (at 57.15 85.09 0)
+    (property "Reference" "#PWR01" (at 57.15 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 57.15 87.63 0)
@@ -1651,7 +1651,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "#PWR021") (unit 1)
@@ -1668,7 +1668,7 @@
   (symbol (lib_id "power:GND") (at 165.1 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 95009358-0e2b-4400-8b9b-06643def44f8)
-    (property "Reference" "#PWR069" (at 171.45 97.79 0)
+    (property "Reference" "#PWR08" (at 171.45 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.91 97.79 90)
@@ -1684,7 +1684,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "#PWR022") (unit 1)
@@ -1701,7 +1701,7 @@
   (symbol (lib_id "Device:R_Small") (at 163.83 82.55 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 974b07e2-5e84-4c29-ab2d-9bb958512afc)
-    (property "Reference" "R28" (at 158.75 81.28 0)
+    (property "Reference" "R2" (at 158.75 81.28 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 158.75 83.82 0)
@@ -1718,7 +1718,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "R28") (unit 1)
+          (reference "R2") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "R17") (unit 1)
@@ -1735,7 +1735,7 @@
   (symbol (lib_id "power:+12V") (at 67.31 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9da4d3f6-3da9-4813-81c0-b60f82282f8b)
-    (property "Reference" "#PWR01" (at 67.31 95.25 0)
+    (property "Reference" "#PWR02" (at 67.31 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 69.85 87.63 0)
@@ -1751,7 +1751,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "#PWR018") (unit 1)
@@ -1768,7 +1768,7 @@
   (symbol (lib_id "power:+12V") (at 220.98 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a10d0ec7-47e4-4f88-9aae-4f4424909dfa)
-    (property "Reference" "#PWR010" (at 220.98 95.25 0)
+    (property "Reference" "#PWR06" (at 220.98 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 223.52 87.63 0)
@@ -1784,7 +1784,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "#PWR018") (unit 1)
@@ -1847,7 +1847,7 @@
   (symbol (lib_id "Device:C_Small") (at 232.41 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b4badefa-a4e0-4a01-966c-7c3bad137d3b)
-    (property "Reference" "C4" (at 233.68 105.41 0)
+    (property "Reference" "C6" (at 233.68 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BS" (at 233.68 107.95 0)
@@ -1864,7 +1864,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "C4") (unit 1)
+          (reference "C6") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "C8") (unit 1)
@@ -1887,7 +1887,7 @@
   (symbol (lib_id "Device:R_Small") (at 163.83 93.98 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bfd725b1-237d-4701-8746-271359fc2f47)
-    (property "Reference" "R32" (at 158.75 92.71 0)
+    (property "Reference" "R5" (at 158.75 92.71 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 158.75 95.25 0)
@@ -1904,7 +1904,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "R32") (unit 1)
+          (reference "R5") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "R18") (unit 1)
@@ -1921,7 +1921,7 @@
   (symbol (lib_id "power:GND") (at 210.82 91.44 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3b9f1b7-f30b-484e-98ee-1e84717b7c23)
-    (property "Reference" "#PWR07" (at 210.82 85.09 0)
+    (property "Reference" "#PWR05" (at 210.82 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 210.82 87.63 0)
@@ -1937,7 +1937,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "#PWR020") (unit 1)
@@ -2000,7 +2000,7 @@
   (symbol (lib_id "Device:C_Small") (at 152.4 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d96320cb-2707-4471-9143-65d02d0b3298)
-    (property "Reference" "C15" (at 153.67 105.41 0)
+    (property "Reference" "C5" (at 153.67 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BS" (at 153.67 107.95 0)
@@ -2017,7 +2017,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "C15") (unit 1)
+          (reference "C5") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "C8") (unit 1)
@@ -2113,7 +2113,7 @@
   (symbol (lib_id "Driver_FET:IR2184") (at 220.98 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eeb56033-9d0f-4acb-ac4c-9487962c713c)
-    (property "Reference" "U9" (at 222.9359 93.98 0)
+    (property "Reference" "U3" (at 222.9359 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IR2184" (at 222.9359 96.52 0)
@@ -2136,7 +2136,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "U9") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -2145,7 +2145,7 @@
   (symbol (lib_id "Device:R_Small") (at 243.84 82.55 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ff452e79-70d3-4ad8-938a-6410ff91d10b)
-    (property "Reference" "R8" (at 238.76 81.28 0)
+    (property "Reference" "R3" (at 238.76 81.28 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 238.76 83.82 0)
@@ -2162,7 +2162,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "R8") (unit 1)
+          (reference "R3") (unit 1)
         )
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
           (reference "R17") (unit 1)
@@ -2179,7 +2179,7 @@
   (symbol (lib_id "Driver_FET:IR2184") (at 67.31 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ffaffde7-3502-4aec-9d56-f665307d6238)
-    (property "Reference" "U11" (at 69.2659 93.98 0)
+    (property "Reference" "U1" (at 69.2659 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IR2184" (at 69.2659 96.52 0)
@@ -2202,7 +2202,7 @@
     (instances
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/19bf685c-3358-44f7-be43-7c9e33bdce09"
-          (reference "U11") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
