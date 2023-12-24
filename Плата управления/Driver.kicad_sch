@@ -713,15 +713,15 @@
   )
 
   (text "Драйвер С" (at 221.615 66.04 0)
-    (effects (font (size 2 2) (thickness 0.254) bold) (justify left bottom))
+    (effects (font (size 2.5 2.5) (thickness 0.254) bold) (justify left bottom))
     (uuid 357f518e-d810-4b0e-a6ee-bc4d1f2414fa)
   )
   (text "Драйвер А" (at 69.215 66.04 0)
-    (effects (font (size 2 2) (thickness 0.254) bold) (justify left bottom))
+    (effects (font (size 2.5 2.5) (thickness 0.254) bold) (justify left bottom))
     (uuid 7bd26d1b-7496-4da3-baca-b606d671cc40)
   )
   (text "Драйвер В" (at 144.145 66.04 0)
-    (effects (font (size 2 2) (thickness 0.254) bold) (justify left bottom))
+    (effects (font (size 2.5 2.5) (thickness 0.254) bold) (justify left bottom))
     (uuid dbb3bebf-2ba9-49a7-91dc-133d7079303a)
   )
 

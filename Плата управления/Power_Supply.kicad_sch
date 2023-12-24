@@ -978,15 +978,15 @@
   )
 
   (text "Питание 3.3В" (at 97.79 111.125 0)
-    (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
+    (effects (font (size 2.5 2.5) (thickness 0.4) bold) (justify left bottom))
     (uuid 24650476-cd31-44b9-b7d3-b0355984b343)
   )
   (text "Измерение напряжения ЗПТ" (at 185.42 34.29 0)
-    (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
+    (effects (font (size 2.5 2.5) (thickness 0.4) bold) (justify left bottom))
     (uuid 90127137-8e17-4657-adbd-b8322d55701c)
   )
   (text "Питание 12В" (at 98.425 34.29 0)
-    (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
+    (effects (font (size 2.5 2.5) (thickness 0.4) bold) (justify left bottom))
     (uuid dd928ce2-fc41-473e-9d7b-b8816c27f8c2)
   )
 

@@ -741,11 +741,11 @@
   )
 
   (text "CAN 1" (at 107.95 71.755 0)
-    (effects (font (size 2 2) bold) (justify left bottom))
+    (effects (font (size 2.5 2.5) bold) (justify left bottom))
     (uuid 9d5644c3-f44e-4ca2-8d24-7eae5fa431ef)
   )
   (text "CAN 2" (at 197.485 71.755 0)
-    (effects (font (size 2 2) bold) (justify left bottom))
+    (effects (font (size 2.5 2.5) bold) (justify left bottom))
     (uuid ed58b0d8-1f08-4eea-a1fc-4633d05c535e)
   )
 

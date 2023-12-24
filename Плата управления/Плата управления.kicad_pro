@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.6
         }
       },
       "diff_pair_dimensions": [
@@ -434,7 +434,14 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "+12V": "rgb(0, 0, 194)",
+      "+24V": "rgb(0, 194, 0)",
+      "+3.3V": "rgb(194, 0, 0)",
+      "+3.3VA": "rgb(194, 0, 194)",
+      "GND": "rgb(72, 72, 72)",
+      "GNDA": "rgb(0, 194, 194)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
@@ -474,7 +481,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "gost_landscape.kicad_wks",
-    "plot_directory": "../Документы/",
+    "plot_directory": "../../../../KAMAZ_Doc/Плата управления/Схема электрическая чертежи/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -509,8 +516,8 @@
       "MCU"
     ],
     [
-      "c4a77b60-6f80-4c82-a865-c1484ac69908",
-      "RS485"
+      "bbae964f-aef3-47b6-89c5-594b5cc7787c",
+      "EEPROM"
     ],
     [
       "748e6803-cc54-46be-a33b-d2599b6267a4",
@@ -521,12 +528,16 @@
       "CAN"
     ],
     [
-      "bbae964f-aef3-47b6-89c5-594b5cc7787c",
-      "EEPROM"
+      "c4a77b60-6f80-4c82-a865-c1484ac69908",
+      "RS485"
     ],
     [
       "47f4c3e6-ca16-48bd-a07f-b1f138b5b42e",
       "SWD"
+    ],
+    [
+      "a1fd62e4-a3fa-422c-840b-ff6e9353e9fd",
+      "Connection_list"
     ]
   ],
   "text_variables": {}

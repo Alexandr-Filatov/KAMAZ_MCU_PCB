@@ -260,7 +260,7 @@
   )
 
   (text "SWD" (at 153.035 78.105 0)
-    (effects (font (size 2 2) bold) (justify left bottom))
+    (effects (font (size 2.5 2.5) bold) (justify left bottom))
     (uuid 2a41c7b8-e2ac-4ba6-9ad6-887b3176c7e1)
   )
 
@@ -300,6 +300,9 @@
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/47f4c3e6-ca16-48bd-a07f-b1f138b5b42e"
           (reference "#PWR0105") (unit 1)
         )
+        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/a1fd62e4-a3fa-422c-840b-ff6e9353e9fd"
+          (reference "#PWR0110") (unit 1)
+        )
       )
     )
   )
@@ -324,6 +327,9 @@
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/47f4c3e6-ca16-48bd-a07f-b1f138b5b42e"
           (reference "#PWR0106") (unit 1)
+        )
+        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/a1fd62e4-a3fa-422c-840b-ff6e9353e9fd"
+          (reference "#PWR0111") (unit 1)
         )
       )
     )
@@ -352,6 +358,9 @@
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/47f4c3e6-ca16-48bd-a07f-b1f138b5b42e"
           (reference "J10") (unit 1)
+        )
+        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/a1fd62e4-a3fa-422c-840b-ff6e9353e9fd"
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -384,6 +393,9 @@
       (project "Плата управления"
         (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/47f4c3e6-ca16-48bd-a07f-b1f138b5b42e"
           (reference "D13") (unit 1)
+        )
+        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/a1fd62e4-a3fa-422c-840b-ff6e9353e9fd"
+          (reference "D16") (unit 1)
         )
       )
     )

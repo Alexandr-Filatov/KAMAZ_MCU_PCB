@@ -162,7 +162,7 @@
   )
 
   (text "Температура транзисторов" (at 137.795 76.2 0)
-    (effects (font (size 2 2) bold) (justify left bottom))
+    (effects (font (size 2.5 2.5) bold) (justify left bottom))
     (uuid 20368369-2af6-4b0b-a2e5-ac4507f981ef)
   )
 
