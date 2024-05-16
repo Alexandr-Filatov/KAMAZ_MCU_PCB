@@ -1267,7 +1267,7 @@
     (property "Value" "LMV7239M5" (at 175.895 101.6 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5" (at 169.545 113.03 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" (at 169.545 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmv7219.pdf" (at 172.085 107.95 0)
