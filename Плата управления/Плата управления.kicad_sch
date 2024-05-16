@@ -30,7 +30,7 @@
 
   (sheet (at 29.21 26.67) (size 52.07 33.02) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 0 255 0 0.5000))
     (uuid 19bf685c-3358-44f7-be43-7c9e33bdce09)
     (property "Sheetname" "Driver" (at 29.21 25.3434 0)
       (effects (font (size 2.5 2.5) bold) (justify left bottom))
@@ -47,7 +47,7 @@
 
   (sheet (at 85.09 105.41) (size 52.07 33.02) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 0 255 0 0.5000))
     (uuid 47f4c3e6-ca16-48bd-a07f-b1f138b5b42e)
     (property "Sheetname" "SWD" (at 85.09 104.0834 0)
       (effects (font (size 2.5 2.5)) (justify left bottom))
@@ -67,7 +67,7 @@
 
   (sheet (at 29.21 66.04) (size 52.07 33.02) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 0 255 0 0.5000))
     (uuid 5edc1bc4-8927-4ae0-9f52-ef5d9c5bfa46)
     (property "Sheetname" "MCU" (at 29.21 64.7134 0)
       (effects (font (size 2.5 2.5)) (justify left bottom))
@@ -87,7 +87,7 @@
 
   (sheet (at 140.97 66.04) (size 52.07 33.02) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 0 255 0 0.5000))
     (uuid 748e6803-cc54-46be-a33b-d2599b6267a4)
     (property "Sheetname" "Power_Supply" (at 140.97 64.7134 0)
       (effects (font (size 2.5 2.5)) (justify left bottom))
@@ -107,7 +107,7 @@
 
   (sheet (at 196.85 66.04) (size 52.07 33.02) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 0 255 0 0.5000))
     (uuid 9fed4cc9-7de2-4454-9cda-928fae308673)
     (property "Sheetname" "CAN" (at 196.85 64.7134 0)
       (effects (font (size 2.5 2.5)) (justify left bottom))
@@ -167,7 +167,7 @@
 
   (sheet (at 29.21 105.41) (size 52.07 33.02) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 255 255 0 0.5000))
     (uuid c4a77b60-6f80-4c82-a865-c1484ac69908)
     (property "Sheetname" "RS485" (at 29.21 104.0834 0)
       (effects (font (size 2.5 2.5)) (justify left bottom))
