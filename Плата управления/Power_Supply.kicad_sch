@@ -1212,7 +1212,7 @@
     (property "Value" "LMV321" (at 211.455 75.565 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" (at 208.915 70.485 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering" (at 208.915 70.485 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf" (at 208.915 70.485 0)
