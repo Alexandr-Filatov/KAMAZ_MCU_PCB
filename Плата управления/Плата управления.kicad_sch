@@ -165,26 +165,6 @@
     )
   )
 
-  (sheet (at 29.21 105.41) (size 52.07 33.02) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid c4a77b60-6f80-4c82-a865-c1484ac69908)
-    (property "Sheetname" "RS485" (at 29.21 104.0834 0)
-      (effects (font (size 2.5 2.5)) (justify left bottom))
-    )
-    (property "Sheetfile" "RS485.kicad_sch" (at 29.21 139.0146 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Поле2" "" (at 29.21 105.41 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "Плата управления"
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f" (page "10"))
-      )
-    )
-  )
-
   (sheet (at 85.09 26.67) (size 52.07 33.02) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
