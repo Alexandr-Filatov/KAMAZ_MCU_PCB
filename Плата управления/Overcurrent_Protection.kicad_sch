@@ -2188,8 +2188,8 @@
 				)
 			)
 		)
-		(property "Value" "INA282"
-			(at 133.985 107.95 0)
+		(property "Value" "AD8418A"
+			(at 133.858 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,4 +1,4 @@
-23746910031309859
+23748637302777447
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -24023,6 +24023,13 @@ connector Molex SlimStack side entry
 0
 80
 80
+Connector_My
+Hole_9mm
+
+
+0
+0
+0
 Connector_PCBEdge
 4UCON_10156_2x40_P1.27mm_Socket_Horizontal
 4UCON 10156 Card edge socket with 80 contacts (40 each side), through-hole, http://www.4uconnector.com/online/object/4udrawing/10156.pdf

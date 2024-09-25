@@ -3450,10 +3450,6 @@
 		(uuid "0555b7a4-9b79-46ca-a613-63d8974db25a")
 	)
 	(no_connect
-		(at 60.96 100.965)
-		(uuid "0c9e0e8c-d557-4680-945c-f16d18fe468f")
-	)
-	(no_connect
 		(at 106.68 123.825)
 		(uuid "10e560be-b768-438e-8e10-0d89e0b5f99f")
 	)
@@ -3618,16 +3614,8 @@
 		(uuid "aff5b153-13c9-4603-8e28-5cdc04f947fd")
 	)
 	(no_connect
-		(at 60.96 95.885)
-		(uuid "b0afab92-22cd-4800-b8c6-86972e50d6be")
-	)
-	(no_connect
 		(at 60.96 118.745)
 		(uuid "b9006690-f1a0-4c36-a758-45d966891c42")
-	)
-	(no_connect
-		(at 60.96 108.585)
-		(uuid "b90bf7dc-f2ba-42d8-9b19-efe77bc823fe")
 	)
 	(no_connect
 		(at 33.02 62.865)
@@ -3652,10 +3640,6 @@
 	(no_connect
 		(at 106.68 116.205)
 		(uuid "d23141aa-b89c-453a-9281-f2a04d811620")
-	)
-	(no_connect
-		(at 60.96 90.805)
-		(uuid "dc62174c-d3a8-4c41-85e7-36bdea82c018")
 	)
 	(no_connect
 		(at 60.96 146.685)
@@ -5681,6 +5665,28 @@
 			)
 		)
 	)
+	(global_label "LI_A"
+		(shape input)
+		(at 60.96 90.805 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "26d1aa07-6da1-4b59-a705-aac4017fed8c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.2857 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "EEPROM_MISO_MCU"
 		(shape output)
 		(at 106.68 161.925 0)
@@ -5699,6 +5705,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWM_BKIN"
+		(shape input)
+		(at 60.96 108.585 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "345bf640-ef91-4fe9-8d30-c61b9e556e89")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.3591 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5725,7 +5753,7 @@
 			)
 		)
 	)
-	(global_label "IN_B"
+	(global_label "HI_B"
 		(shape input)
 		(at 60.96 98.425 180)
 		(fields_autoplaced yes)
@@ -5737,7 +5765,7 @@
 		)
 		(uuid "4c13968b-2a9c-409e-b8c8-f465cf8e940e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.8813 98.425 0)
+			(at 53.8019 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5857,7 +5885,7 @@
 			)
 		)
 	)
-	(global_label "IN_C"
+	(global_label "HI_C"
 		(shape input)
 		(at 60.96 103.505 180)
 		(fields_autoplaced yes)
@@ -5869,7 +5897,7 @@
 		)
 		(uuid "7fb750e7-8b2c-48c9-a639-e2ad7baabb7d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.8813 103.505 0)
+			(at 53.8019 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5923,9 +5951,9 @@
 			)
 		)
 	)
-	(global_label "IN_A"
+	(global_label "LI_B"
 		(shape input)
-		(at 60.96 93.345 180)
+		(at 60.96 95.885 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5933,9 +5961,9 @@
 			)
 			(justify right)
 		)
-		(uuid "a275c457-6eaf-419c-b7e6-6e30b7f9bd54")
+		(uuid "910f7811-e792-4dfb-9263-e76d59189b75")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.0627 93.345 0)
+			(at 54.1043 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6011,6 +6039,28 @@
 			)
 		)
 	)
+	(global_label "LI_C"
+		(shape input)
+		(at 60.96 100.965 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b7253912-8573-4412-8842-f001082eded2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.1043 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Temp_Coil_A_MCU"
 		(shape output)
 		(at 106.68 47.625 0)
@@ -6051,6 +6101,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HI_A"
+		(shape input)
+		(at 60.96 93.345 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf82affd-c86f-4f25-abfb-a1e64092dfbf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.9833 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
