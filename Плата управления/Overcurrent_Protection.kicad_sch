@@ -1241,6 +1241,28 @@
 			)
 		)
 	)
+	(global_label "PWM_BKIN"
+		(shape output)
+		(at 191.135 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71b78638-06d1-4117-9707-f53e8c6539e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.7359 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Shunt+"
 		(shape input)
 		(at 121.285 107.95 180)
@@ -1259,28 +1281,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Enable"
-		(shape output)
-		(at 191.135 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c20cec31-d720-4921-871c-961e60714ae0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.47 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
