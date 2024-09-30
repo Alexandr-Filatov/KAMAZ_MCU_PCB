@@ -3658,10 +3658,6 @@
 		(uuid "ea646553-9f20-4a3d-87e6-cb084e378776")
 	)
 	(no_connect
-		(at 106.68 90.805)
-		(uuid "eb721fdc-beba-4683-9322-5ca661606dc5")
-	)
-	(no_connect
 		(at 106.68 133.985)
 		(uuid "f25b7149-49b6-45de-a477-639b328e745a")
 	)
@@ -4581,7 +4577,7 @@
 	)
 	(text_box "EEPROM_MOSI_MCU"
 		(exclude_from_sim no)
-		(at 144.145 50.165 0)
+		(at 144.145 27.305 0)
 		(size 33.02 2.54)
 		(stroke
 			(width 0)
@@ -4598,28 +4594,9 @@
 		)
 		(uuid "015db47b-38d7-4ba3-aaff-cc6265874b84")
 	)
-	(text_box "CAN2_TXD_MCU"
-		(exclude_from_sim no)
-		(at 144.145 17.145 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "064e6fbd-e45e-41b3-a8ba-584ac8e2847f")
-	)
 	(text_box "SPI1_MOSI"
 		(exclude_from_sim no)
-		(at 177.165 50.165 0)
+		(at 177.165 27.305 0)
 		(size 20.32 2.54)
 		(stroke
 			(width 0)
@@ -4674,9 +4651,9 @@
 		)
 		(uuid "1b24f510-4692-4924-bc7a-af8f2c66e839")
 	)
-	(text_box "USART1_RX"
+	(text_box "DAC_OUT1"
 		(exclude_from_sim no)
-		(at 177.165 29.845 0)
+		(at 200.025 40.005 0)
 		(size 20.32 2.54)
 		(stroke
 			(width 0)
@@ -4691,7 +4668,7 @@
 				(bold yes)
 			)
 		)
-		(uuid "20c343e0-6147-4bb0-9ed3-c9823ecec16f")
+		(uuid "2cbe284c-1a39-43d8-935e-cd12bbcde971")
 	)
 	(text_box "ADC12_IN15"
 		(exclude_from_sim no)
@@ -4712,28 +4689,9 @@
 		)
 		(uuid "305070e7-e6bf-4afc-8555-a19f852c08b7")
 	)
-	(text_box "Angle_Sensor_CS_MCU"
-		(exclude_from_sim no)
-		(at 144.145 60.325 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "311fa78b-f154-42a1-b2e3-c955b5747ac4")
-	)
 	(text_box "CAN1_RXD_MCU"
 		(exclude_from_sim no)
-		(at 144.145 19.685 0)
+		(at 144.145 14.605 0)
 		(size 33.02 2.54)
 		(stroke
 			(width 0)
@@ -4752,7 +4710,7 @@
 	)
 	(text_box "SPI1_MISO"
 		(exclude_from_sim no)
-		(at 177.165 47.625 0)
+		(at 177.165 24.765 0)
 		(size 20.32 2.54)
 		(stroke
 			(width 0)
@@ -4771,7 +4729,7 @@
 	)
 	(text_box "CAN1_TX"
 		(exclude_from_sim no)
-		(at 177.165 22.225 0)
+		(at 177.165 17.145 0)
 		(size 20.32 2.54)
 		(stroke
 			(width 0)
@@ -4788,28 +4746,9 @@
 		)
 		(uuid "33921ffc-ff67-4a75-af2d-7977b0a2a49f")
 	)
-	(text_box "Temperature_Power_SCL_MCU"
-		(exclude_from_sim no)
-		(at 144.145 34.925 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "3a6525f3-b449-4d8f-b0d5-3e684af8e2d2")
-	)
 	(text_box "SPI1_NSS/PA4"
 		(exclude_from_sim no)
-		(at 177.165 52.705 0)
+		(at 177.165 29.845 0)
 		(size 20.32 2.54)
 		(stroke
 			(width 0)
@@ -4866,7 +4805,7 @@
 	)
 	(text_box "EEPROM_~{CS_MCU}"
 		(exclude_from_sim no)
-		(at 144.145 52.705 0)
+		(at 144.145 29.845 0)
 		(size 33.02 2.54)
 		(stroke
 			(width 0)
@@ -4902,44 +4841,6 @@
 		)
 		(uuid "565e32b2-c4b5-43e6-a95d-0b437a5c7f25")
 	)
-	(text_box "RS_485_RX_MCU"
-		(exclude_from_sim no)
-		(at 144.145 27.305 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "57341741-b47c-47c3-bff4-44697f15cd21")
-	)
-	(text_box "Digital_input1"
-		(exclude_from_sim no)
-		(at 200.025 42.545 0)
-		(size 20.32 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "592077ca-8baa-4068-9b2e-bf50d6977b93")
-	)
 	(text_box "Current_C_MCU"
 		(exclude_from_sim no)
 		(at 200.025 29.845 0)
@@ -4961,7 +4862,7 @@
 	)
 	(text_box "CAN1_TXD_MCU"
 		(exclude_from_sim no)
-		(at 144.145 22.225 0)
+		(at 144.145 17.145 0)
 		(size 33.02 2.54)
 		(stroke
 			(width 0)
@@ -4980,7 +4881,7 @@
 	)
 	(text_box "EEPROM_MISO_MCU"
 		(exclude_from_sim no)
-		(at 144.145 47.625 0)
+		(at 144.145 24.765 0)
 		(size 33.02 2.54)
 		(stroke
 			(width 0)
@@ -4996,63 +4897,6 @@
 			)
 		)
 		(uuid "66f29e4a-0ac7-440d-a1e5-c0b03b8a0d4b")
-	)
-	(text_box "Angle_Sensor_SDIO_MCU"
-		(exclude_from_sim no)
-		(at 144.145 55.245 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "6f099f1f-206e-42c3-b62c-f7d4cade4ded")
-	)
-	(text_box "Temperature_Power_SDA_MCU"
-		(exclude_from_sim no)
-		(at 144.145 37.465 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "70b62547-1ece-47a7-a8b8-f702f0aa631f")
-	)
-	(text_box "SPI3_MISO"
-		(exclude_from_sim no)
-		(at 177.165 55.245 0)
-		(size 20.32 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "77c8599a-63e7-4310-a516-e759362cee6e")
 	)
 	(text_box "PCB_Temp_A_MCU"
 		(exclude_from_sim no)
@@ -5092,6 +4936,25 @@
 		)
 		(uuid "83bbc482-feae-4446-807e-0985cdcede0e")
 	)
+	(text_box "DAC"
+		(exclude_from_sim no)
+		(at 200.025 37.465 0)
+		(size 40.64 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+		)
+		(uuid "885740a9-574f-4bc9-a3a1-c7edbd819789")
+	)
 	(text_box "Temp_Coil_B_MCU"
 		(exclude_from_sim no)
 		(at 200.025 14.605 0)
@@ -5110,63 +4973,6 @@
 			)
 		)
 		(uuid "8c6aadfe-d537-4bc4-826b-d249130cd056")
-	)
-	(text_box "Цифровой блок"
-		(exclude_from_sim no)
-		(at 200.025 40.005 0)
-		(size 40.64 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "8de628bc-7f9a-4bcb-bee5-475845c6f6cb")
-	)
-	(text_box "SPI1_NSS/PA15"
-		(exclude_from_sim no)
-		(at 177.165 60.325 0)
-		(size 20.32 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "9b91808b-de25-4906-b227-0f49b3c28974")
-	)
-	(text_box "I2C2_SDA"
-		(exclude_from_sim no)
-		(at 177.165 37.465 0)
-		(size 20.32 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "9c7616af-2cf1-4600-ad8a-7a6f78970ca6")
 	)
 	(text_box "ADC12_IN14"
 		(exclude_from_sim no)
@@ -5206,25 +5012,6 @@
 		)
 		(uuid "9ee732af-ca34-4867-84a3-86fefe0bbe30")
 	)
-	(text_box "I2C2_SCL"
-		(exclude_from_sim no)
-		(at 177.165 34.925 0)
-		(size 20.32 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "9f30269e-9d6a-4a15-9d69-cd5deb2588af")
-	)
 	(text_box "CAN"
 		(exclude_from_sim no)
 		(at 144.145 12.065 0)
@@ -5263,9 +5050,9 @@
 		)
 		(uuid "a1bf6038-a665-4a93-ac3f-cd5a56f88f4a")
 	)
-	(text_box "SPI3_SCK"
+	(text_box "DAC_OUT1"
 		(exclude_from_sim no)
-		(at 177.165 57.785 0)
+		(at 220.345 40.005 0)
 		(size 20.32 2.54)
 		(stroke
 			(width 0)
@@ -5280,7 +5067,7 @@
 				(bold yes)
 			)
 		)
-		(uuid "a64d04ea-9b2f-4c22-9095-3d5164d7f2f0")
+		(uuid "a349170c-3469-4ec5-a25f-3cd4d93f0d4b")
 	)
 	(text_box "Temp_Coil_A_MCU"
 		(exclude_from_sim no)
@@ -5320,25 +5107,6 @@
 		)
 		(uuid "a7051bbc-fcb1-4ca7-bf28-bc2e5acbb472")
 	)
-	(text_box "PE15"
-		(exclude_from_sim no)
-		(at 177.165 40.005 0)
-		(size 20.32 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "a9181729-fd35-4e81-8509-2e5f941e5bb3")
-	)
 	(text_box "Аналоговый блок"
 		(exclude_from_sim no)
 		(at 200.025 9.525 0)
@@ -5360,7 +5128,7 @@
 	)
 	(text_box "SPI1_SCK"
 		(exclude_from_sim no)
-		(at 177.165 45.085 0)
+		(at 177.165 22.225 0)
 		(size 20.32 2.54)
 		(stroke
 			(width 0)
@@ -5376,25 +5144,6 @@
 			)
 		)
 		(uuid "b12158df-b71a-46ec-8574-823c67bc5ad0")
-	)
-	(text_box "RS-485"
-		(exclude_from_sim no)
-		(at 144.145 24.765 0)
-		(size 53.34 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "b72f251f-3478-4257-81e5-9e2198b1ed62")
 	)
 	(text_box "ADC123_IN3"
 		(exclude_from_sim no)
@@ -5415,26 +5164,7 @@
 		)
 		(uuid "cdc83678-6a92-4527-b2c6-ec37d78f82a0")
 	)
-	(text_box "USART1_TX"
-		(exclude_from_sim no)
-		(at 177.165 27.305 0)
-		(size 20.32 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "ceea4182-9b6b-41c0-a96a-429adbd3ba24")
-	)
-	(text_box "ADC12_IN4"
+	(text_box "ADC12_IN8"
 		(exclude_from_sim no)
 		(at 220.345 22.225 0)
 		(size 20.32 2.54)
@@ -5455,7 +5185,7 @@
 	)
 	(text_box "EEPROM_SCK_MCU"
 		(exclude_from_sim no)
-		(at 144.145 45.085 0)
+		(at 144.145 22.225 0)
 		(size 33.02 2.54)
 		(stroke
 			(width 0)
@@ -5474,7 +5204,7 @@
 	)
 	(text_box "SPI"
 		(exclude_from_sim no)
-		(at 144.145 42.545 0)
+		(at 144.145 19.685 0)
 		(size 53.34 2.54)
 		(stroke
 			(width 0)
@@ -5490,82 +5220,6 @@
 			)
 		)
 		(uuid "da86175f-bb59-4c3b-aea6-825b4f044255")
-	)
-	(text_box "CAN2_TX"
-		(exclude_from_sim no)
-		(at 177.165 17.145 0)
-		(size 20.32 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "dd56fd52-3373-40a9-9145-681f54f7a574")
-	)
-	(text_box "Temperature_Power_~{OS}_MCU"
-		(exclude_from_sim no)
-		(at 144.145 40.005 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "e0c82c0d-7a9b-4823-bb35-56e2a0e96ccc")
-	)
-	(text_box "RS_485_TX_MCU"
-		(exclude_from_sim no)
-		(at 144.145 29.845 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "e778f8fd-5a1c-4fe3-bc13-381c34581afd")
-	)
-	(text_box "PD10"
-		(exclude_from_sim no)
-		(at 220.345 42.545 0)
-		(size 20.32 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "e8fbb1bb-30f0-429e-a51d-30b6ba5542f5")
 	)
 	(text_box "Current_B_MCU"
 		(exclude_from_sim no)
@@ -5586,66 +5240,9 @@
 		)
 		(uuid "ea2fca3e-a893-4373-8393-bbaa1dcfebea")
 	)
-	(text_box "Angle_Sensor_SCLK_MCU"
-		(exclude_from_sim no)
-		(at 144.145 57.785 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "eb440f73-1061-4e31-b236-0490a6c47cb4")
-	)
-	(text_box "I2C"
-		(exclude_from_sim no)
-		(at 144.145 32.385 0)
-		(size 53.34 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "ef0d1f7b-83fc-42a7-aff4-5f0dfde8a566")
-	)
-	(text_box "CAN2_RX"
-		(exclude_from_sim no)
-		(at 177.165 14.605 0)
-		(size 20.32 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "ef150c84-f510-45c4-ba25-6d2b21f75320")
-	)
 	(text_box "CAN1_RX"
 		(exclude_from_sim no)
-		(at 177.165 19.685 0)
+		(at 177.165 14.605 0)
 		(size 20.32 2.54)
 		(stroke
 			(width 0)
@@ -5680,25 +5277,6 @@
 			)
 		)
 		(uuid "f3d97705-9ef4-4a1c-bfbf-5de4f2cd470d")
-	)
-	(text_box "CAN2_RXD_MCU"
-		(exclude_from_sim no)
-		(at 144.145 14.605 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "f8274912-42dd-4179-accc-246b6be4bbfd")
 	)
 	(text_box "ADC123_IN1"
 		(exclude_from_sim no)
@@ -5774,7 +5352,7 @@
 		)
 	)
 	(global_label "EEPROM_MOSI_MCU"
-		(shape input)
+		(shape output)
 		(at 106.68 164.465 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5796,7 +5374,7 @@
 		)
 	)
 	(global_label "LI_A"
-		(shape input)
+		(shape output)
 		(at 60.96 90.805 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5818,7 +5396,7 @@
 		)
 	)
 	(global_label "EEPROM_MISO_MCU"
-		(shape output)
+		(shape input)
 		(at 106.68 161.925 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5841,7 +5419,7 @@
 	)
 	(global_label "PCB_Temp_C_MCU"
 		(shape input)
-		(at 106.68 57.785 0)
+		(at 106.68 90.805 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5851,7 +5429,7 @@
 		)
 		(uuid "2f23a586-dc8b-49e1-a073-d240e17dcf71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.5984 57.785 0)
+			(at 126.5984 90.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5906,7 +5484,7 @@
 		)
 	)
 	(global_label "HI_B"
-		(shape input)
+		(shape output)
 		(at 60.96 98.425 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6038,7 +5616,7 @@
 		)
 	)
 	(global_label "HI_C"
-		(shape input)
+		(shape output)
 		(at 60.96 103.505 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6104,7 +5682,7 @@
 		)
 	)
 	(global_label "SWDIO"
-		(shape input)
+		(shape bidirectional)
 		(at 106.68 80.645 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6115,7 +5693,7 @@
 		)
 		(uuid "8e4e945b-3b79-4f81-b768-b9fdd479c1ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.5314 80.645 0)
+			(at 116.6427 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6126,7 +5704,7 @@
 		)
 	)
 	(global_label "LI_B"
-		(shape input)
+		(shape output)
 		(at 60.96 95.885 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6192,7 +5770,7 @@
 		)
 	)
 	(global_label "SWCLK"
-		(shape input)
+		(shape output)
 		(at 106.68 83.185 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6214,7 +5792,7 @@
 		)
 	)
 	(global_label "LI_C"
-		(shape input)
+		(shape output)
 		(at 60.96 100.965 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6280,7 +5858,7 @@
 		)
 	)
 	(global_label "HI_A"
-		(shape input)
+		(shape output)
 		(at 60.96 93.345 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6302,7 +5880,7 @@
 		)
 	)
 	(global_label "DC_Voltage_MCU"
-		(shape output)
+		(shape input)
 		(at 106.68 146.685 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6313,7 +5891,29 @@
 		)
 		(uuid "d407c9bd-5672-43b3-9f44-e7c56eced7b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.128 146.685 0)
+			(at 125.2074 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DAC_OUT1"
+		(shape output)
+		(at 106.68 57.785 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "daf84c99-d098-42ea-b95b-592f6146d062")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.0995 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
