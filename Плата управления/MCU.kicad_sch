@@ -6907,15 +6907,15 @@
 		(fields_autoplaced yes)
 		(uuid "5ea69545-8c5f-4841-822b-184430d7e6e9")
 		(property "Reference" "C16"
-			(at 38.1063 46.355 90)
+			(at 38.1063 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0.1u"
-			(at 38.1063 48.895 90)
+		(property "Value" "100n"
+			(at 38.1063 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8981,7 +8981,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 32.385 83.82 0)
 			(effects
 				(font
@@ -9050,7 +9050,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 55.245 60.325 0)
 			(effects
 				(font

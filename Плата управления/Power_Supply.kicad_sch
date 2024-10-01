@@ -3226,7 +3226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X_Pad2.25x2.55mm_HandSolder"
 			(at 84.455 148.59 0)
 			(effects
 				(font
@@ -3244,7 +3244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CA45-E025K107T"
 			(at 84.455 148.59 0)
 			(effects
 				(font
@@ -3358,7 +3358,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
 			(at 208.915 70.485 0)
 			(effects
 				(font
@@ -3979,7 +3979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X_Pad2.25x2.55mm_HandSolder"
 			(at 132.08 71.12 0)
 			(effects
 				(font
@@ -3997,7 +3997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CA45-E025K107T"
 			(at 132.08 71.12 0)
 			(effects
 				(font
