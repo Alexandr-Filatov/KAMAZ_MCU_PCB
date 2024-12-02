@@ -5,7 +5,7 @@
 	(uuid "74254009-c288-4b66-aed7-d40d357967d4")
 	(paper "A4")
 	(title_block
-		(comment 1 "МПСТ.76721.758764.02.Э3.М")
+		(comment 1 "МПСТ.6319.758764.02.Э3.М")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"
@@ -3308,6 +3308,12 @@
 		)
 	)
 	(junction
+		(at 43.815 50.165)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "052d64f7-4c75-4666-8393-afeba15a2651")
+	)
+	(junction
 		(at 248.92 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3408,12 +3414,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9302ca6d-f570-4803-968e-772c27b16e15")
-	)
-	(junction
-		(at 43.815 51.435)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "99099295-783d-4fcc-994d-bfad122e6f9c")
 	)
 	(junction
 		(at 248.92 64.77)
@@ -3775,6 +3775,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 50.165) (xy 43.815 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f04e95-9e1a-40f2-9c63-f1f052c034ae")
+	)
+	(wire
+		(pts
 			(xy 88.9 37.465) (xy 91.44 37.465)
 		)
 		(stroke
@@ -3802,16 +3812,6 @@
 			(type default)
 		)
 		(uuid "215a281a-f6cf-4bb8-9d5a-c1c34742ebbf")
-	)
-	(wire
-		(pts
-			(xy 43.815 51.435) (xy 43.815 55.245)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "228c9e87-9d25-4e56-b157-4d17c892a6ba")
 	)
 	(wire
 		(pts
@@ -3885,16 +3885,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 51.435) (xy 43.815 51.435)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e0d591d-876d-4645-959f-374289990d63")
-	)
-	(wire
-		(pts
 			(xy 93.98 36.195) (xy 93.98 40.005)
 		)
 		(stroke
@@ -3955,7 +3945,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 51.435) (xy 35.56 51.435)
+			(xy 33.02 50.165) (xy 35.56 50.165)
 		)
 		(stroke
 			(width 0)
@@ -4202,16 +4192,6 @@
 			(type default)
 		)
 		(uuid "79c623b8-5f48-4d86-9f0b-045366624adf")
-	)
-	(wire
-		(pts
-			(xy 33.02 50.165) (xy 33.02 51.435)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a861b06-5511-4c39-a78a-96d26b9d58ac")
 	)
 	(wire
 		(pts
@@ -4512,16 +4492,6 @@
 			(type default)
 		)
 		(uuid "e792616c-afa4-400e-8bca-726a106497db")
-	)
-	(wire
-		(pts
-			(xy 43.815 50.165) (xy 43.815 51.435)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec53d58a-6ba7-4ea9-bee4-181531099dc8")
 	)
 	(wire
 		(pts
@@ -6898,16 +6868,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 38.1 51.435 90)
+		(at 38.1 50.165 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5ea69545-8c5f-4841-822b-184430d7e6e9")
 		(property "Reference" "C16"
-			(at 38.1063 44.45 90)
+			(at 38.1 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6915,7 +6884,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 38.1063 46.99 90)
+			(at 38.1 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6923,7 +6892,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 38.1 51.435 0)
+			(at 38.1 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6932,7 +6901,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 51.435 0)
+			(at 38.1 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6941,7 +6910,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 51.435 0)
+			(at 38.1 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7172,7 +7141,7 @@
 		(dnp no)
 		(uuid "719c7fd9-8796-491f-bd09-a2594edf0360")
 		(property "Reference" "R26"
-			(at 59.055 67.31 90)
+			(at 58.42 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7859,6 +7828,75 @@
 			(project "Плата управления"
 				(path "/75f4c67c-bbde-4446-8f82-67797a1b269f/5edc1bc4-8927-4ae0-9f52-ef5d9c5bfa46"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 43.815 52.705 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86c726d2-daa8-4566-821e-683c90e79423")
+		(property "Reference" "R27"
+			(at 45.72 51.435 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 43.815 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 43.815 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.815 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.815 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7466e6a-20bf-4702-8486-78b3ee3d989f")
+		)
+		(pin "2"
+			(uuid "c2f4c664-2c36-4923-8235-e877007578a1")
+		)
+		(instances
+			(project "Плата управления"
+				(path "/75f4c67c-bbde-4446-8f82-67797a1b269f/5edc1bc4-8927-4ae0-9f52-ef5d9c5bfa46"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -8627,7 +8665,7 @@
 		(dnp no)
 		(uuid "c525636d-ad65-4324-8859-aa20c752caa1")
 		(property "Reference" "U6"
-			(at 38.735 55.245 0)
+			(at 34.925 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8635,11 +8673,12 @@
 			)
 		)
 		(property "Value" "ASEMB-10"
-			(at 36.195 70.485 0)
+			(at 37.465 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm_HandSoldering"
